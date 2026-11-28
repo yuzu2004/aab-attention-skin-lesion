@@ -1,0 +1,13 @@
+# Tested on Kaggle (2x Tesla T4, torch 2.11.0+cu130). Versions are not pinned; install the PyTorch build for your CUDA first.
+torch
+torchvision
+numpy
+pandas
+scipy
+scikit-learn
+pillow
+tqdm
+matplotlib
+kagglehub      # automatic download of the data and the ImageNet weights (src/05_download_data.py)
+# optional
+gradio         # src/70_demo.py (AABL_DEMO=1)

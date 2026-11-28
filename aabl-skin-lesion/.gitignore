@@ -1,0 +1,27 @@
+# experiment outputs (weights, caches, predictions) — share them via a Kaggle dataset / release, not git
+po_aab/
+po_aab_smoke/
+submission/
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.zip
+# data
+data/
+data_isic2018/
+weights/
+*.jpg
+*.jpeg
+*.png
+!docs/**/*.png
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+kaggle.json
+.DS_Store
